@@ -1,0 +1,15 @@
+header {
+  background-color: rgb(65, 136, 180);
+  border: 2px solid #5f0202;
+  height: 100%;
+  display: flex;
+  flex-direction: wrap row-reverse;
+  justify-content: center;
+  align-items: center;
+} 
+.card {
+  border: 2px solid #640202;
+  background-color: coral;
+  padding: 5px;
+  height: 50;
+}
