@@ -1,0 +1,29 @@
+body{ display: grid; 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+   }
+ul{
+  background-color: beige;
+  border: 2px solid #f4c8df;
+ }
+header {
+ background-color: rgb(217, 128, 229);
+ border: 2px solid #5f0202;
+ height: 100%;
+ display: flex;
+ flex-direction: wrap row-reverse;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ grid-row: 200px;
+} 
+.card {
+ border: 2px solid #f226bc;
+ background-color: #54d7e8;
+ padding: 5px;
+ height: 50;
+ flex-direction: column;
+ align-items: baseline;
+ justify-content: center;
+ gap: 20px;
+}
